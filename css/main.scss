@@ -1,0 +1,106 @@
+@import "variables", "condicionales", "bucles", "maps" ;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to left, #21415E, #3D4E5E );
+}
+
+.bg-nav {
+  background-color: $color_principal;
+}
+
+#destacados {
+  color: white;
+}
+
+.col {
+    background: $color_principal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+
+    &:hover {
+        cursor: pointer;
+        color: #000000;
+        background: #324e73;
+    }
+}
+
+.footer {
+    grid-column: 1/6;
+    background-color: $color_principal;
+    padding: 20px;
+    p {
+        color: white;
+    }
+}
+
+#form {
+  color: white;
+  @media (max-width: 376px) {
+    margin-top: 20%;
+  }
+  @media (min-width: 376px) and (max-width:768px) {
+    margin-top: 20%;
+  } 
+  @media (min-width:768px) and (max-width:1200px) {
+    margin-top: 20%;
+  }
+  @media (min-width:1200px) {
+    margin-top: 5%;
+  }
+} 
+
+.preguntas {
+  margin-left: 10%;
+  h1{
+    color: white;
+  }
+  h4 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+  @media (max-width: 376px) {
+    margin-top: 20%;
+  }
+  @media (min-width: 376px) and (max-width:768px) {
+    margin-top: 20%;
+  } 
+  @media (min-width:768px) and (max-width:1200px) {
+    margin-top: 20%;
+  }
+  @media (min-width:1200px) {
+    margin-top: 5%;
+  }
+} 
+
+.card-body a:hover {
+  background-color: black;
+}
+
+.card-text {
+  color: #000000;
+  font-family: $fuente_parrafos;
+}
+
+#infProduc {
+  color: white; 
+  background-color: #1E3040;
+  height: max-content;
+  p {
+    font-family: $fuente_parrafos
+  }
+}
+
+#titleProd {
+  color: white;
+}
+
+

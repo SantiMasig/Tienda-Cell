@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "nombre": "IPHONE 13 PRO",
+        "precio": 500,
+        "img": "./images/productos/iphone.jpg",
+        "categoria": "Celulares",
+        "direccion": "./pages/productos/iphone13pro.html"
+    },
+    {
+        "id": 2,
+        "nombre": "REDMI NOTE 10 PRO",
+        "precio": 400,
+        "img": "./images/productos/redminote10pro.jpg",
+        "categoria": "Celulares",
+        "direccion": "./pages/productos/redminote10pro.html"
+    },
+    {
+        "id": 3,
+        "nombre": "NIKOND3500",
+        "precio": 350,
+        "img": "./images/productos/nikond3500.jpg",
+        "categoria":"Camaras",
+        "direccion": "./pages/productos/nikond3500.html"
+    },
+    {
+        "id": 4,
+        "nombre": "REDRAGON K630",
+        "precio": 80,
+        "img": "./images/productos/reddragonk.jpg",
+        "categoria": "Teclados",
+        "direccion": "./pages/productos/reddragonk630.html"
+    }
+]
